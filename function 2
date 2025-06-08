@@ -1,0 +1,10 @@
+#create function calculation() sych that it can accept 2 variables and calculate addition and subtraction. must return both addition and subtraction in a single return call
+
+def calculation(x,y):
+    sum = x + y
+    dif = x - y
+    return sum, dif
+ 
+result = calculation(5,4)
+
+print(result)
